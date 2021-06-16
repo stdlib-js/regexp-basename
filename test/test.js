@@ -57,7 +57,7 @@ tape( 'the `REGEXP` property is a POSIX specific regular expression if on a POSI
 	var main;
 
 	main = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': false,
+		'@stdlib/assert-is-windows': false,
 		'./main.js': function noop() {}
 	});
 
@@ -69,7 +69,7 @@ tape( 'the `REGEXP` property is a Windows specific regular expression if on a Wi
 	var main;
 
 	main = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': true,
+		'@stdlib/assert-is-windows': true,
 		'./main.js': function noop() {}
 	});
 
