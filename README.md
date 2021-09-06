@@ -129,6 +129,23 @@ base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]: return a regular expression to capture the last part of a POSIX path.
+-   [`@stdlib/regexp/basename-windows`][@stdlib/regexp/basename-windows]: return a regular expression to capture the last part of a Windows path.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -190,9 +207,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
+<!-- <related-links> -->
+
 [@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix
 
 [@stdlib/regexp/basename-windows]: https://github.com/stdlib-js/regexp-basename-windows
+
+<!-- </related-links> -->
 
 </section>
 
