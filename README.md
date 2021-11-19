@@ -20,7 +20,7 @@ limitations under the License.
 
 # Basename
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [Regular expression][regexp] to capture the last part of a path.
 
@@ -137,8 +137,8 @@ base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 ## See Also
 
--   [`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]: return a regular expression to capture the last part of a POSIX path.
--   [`@stdlib/regexp/basename-windows`][@stdlib/regexp/basename-windows]: return a regular expression to capture the last part of a Windows path.
+-   <span class="package-name">[`@stdlib/regexp/basename-posix`][@stdlib/regexp/basename-posix]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture the last part of a POSIX path.</span>
+-   <span class="package-name">[`@stdlib/regexp/basename-windows`][@stdlib/regexp/basename-windows]</span><span class="delimiter">: </span><span class="description">return a regular expression to capture the last part of a Windows path.</span>
 
 </section>
 
@@ -189,8 +189,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/regexp-basename/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/regexp-basename?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/regexp-basename.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/regexp-basename/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
