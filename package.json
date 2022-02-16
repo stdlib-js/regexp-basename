@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-basename",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Return a regular expression to capture the last part of a path.",
   "license": "Apache-2.0",
   "author": {
