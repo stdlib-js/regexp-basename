@@ -1,0 +1,38 @@
+{
+  "name": "@stdlib/regexp-basename",
+  "version": "0.0.0",
+  "description": "Return a regular expression to capture the last part of a path.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/regexp-basename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "regex",
+    "regexp",
+    "re",
+    "regular",
+    "expression",
+    "path",
+    "capture",
+    "match",
+    "base",
+    "basename",
+    "file",
+    "filename",
+    "posix",
+    "windows",
+    "win32"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
