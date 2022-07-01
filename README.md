@@ -24,32 +24,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to capture the last part of a path.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-basename
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-reBasename = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.reBasename;
-})();
-</script>
+var reBasename = require( '@stdlib/regexp-basename' );
 ```
 
 #### reBasename( \[platform] )
@@ -120,13 +118,8 @@ var base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var reBasename = require( '@stdlib/regexp-basename' );
 var RE_BASENAME = reBasename();
 
 // Assuming a POSIX platform...
@@ -138,11 +131,6 @@ base = reBasename.REGEXP_POSIX.exec( '/foo/bar/home.html' )[ 1 ];
 
 base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 // returns 'home.html'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -229,6 +217,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/regexp-basename/tree/deno
 [umd-url]: https://github.com/stdlib-js/regexp-basename/tree/umd
 [esm-url]: https://github.com/stdlib-js/regexp-basename/tree/esm
+[branches-url]: https://github.com/stdlib-js/regexp-basename/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/regexp-basename/main/LICENSE
 
@@ -236,13 +225,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
-[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/umd
+[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix/tree/umd
+[@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix
 
-[@stdlib/regexp/basename-windows]: https://github.com/stdlib-js/regexp-basename-windows/tree/umd
+[@stdlib/regexp/basename-windows]: https://github.com/stdlib-js/regexp-basename-windows
 
 <!-- </related-links> -->
 
