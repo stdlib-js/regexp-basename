@@ -24,20 +24,30 @@ limitations under the License.
 
 > [Regular expression][regexp] to capture the last part of a path.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/regexp-basename
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
+var reBasename = require( '@stdlib/regexp-basename' );
 ```
 
 #### reBasename( \[platform] )
@@ -108,13 +118,8 @@ var base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
+```javascript
+var reBasename = require( '@stdlib/regexp-basename' );
 var RE_BASENAME = reBasename();
 
 // Assuming a POSIX platform...
@@ -126,10 +131,6 @@ base = reBasename.REGEXP_POSIX.exec( '/foo/bar/home.html' )[ 1 ];
 
 base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 // returns 'home.html'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -160,7 +161,7 @@ base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\home.html' )[ 1 ];
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -204,7 +205,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -224,13 +225,13 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [posix]: https://en.wikipedia.org/wiki/POSIX
 
-[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows/tree/esm
+[@stdlib/assert/is-windows]: https://github.com/stdlib-js/assert-is-windows
 
 <!-- <related-links> -->
 
-[@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix/tree/esm
+[@stdlib/regexp/basename-posix]: https://github.com/stdlib-js/regexp-basename-posix
 
-[@stdlib/regexp/basename-windows]: https://github.com/stdlib-js/regexp-basename-windows/tree/esm
+[@stdlib/regexp/basename-windows]: https://github.com/stdlib-js/regexp-basename-windows
 
 <!-- </related-links> -->
 
