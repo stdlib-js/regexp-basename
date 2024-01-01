@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var IS_WINDOWS = require( '@stdlib/assert-is-windows' );
 var isString = require( '@stdlib/assert-is-string' ).isPrimitive;
 var fromCodePoint = require( '@stdlib/string-from-code-point' );
