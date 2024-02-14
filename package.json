@@ -41,7 +41,7 @@
     "@stdlib/assert-is-windows": "^0.2.0",
     "@stdlib/regexp-basename-posix": "^0.2.0",
     "@stdlib/regexp-basename-windows": "^0.2.0",
-    "@stdlib/string-format": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0"
   },
   "devDependencies": {
