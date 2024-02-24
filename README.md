@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-basename/tags). For example,
+
+```javascript
 import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-deno/mod.js';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@deno/mod.js';
 ```
 
 #### reBasename( \[platform] )
@@ -120,7 +125,7 @@ var base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-deno/mod.js';
+import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@deno/mod.js';
 var RE_BASENAME = reBasename();
 
 // Assuming a POSIX platform...
