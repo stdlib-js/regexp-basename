@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/regexp-basename/tags). For example,
+
+```javascript
 import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-esm/index.mjs';
+import { REGEXP, REGEXP_POSIX, REGEXP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
 ```
 
 #### reBasename( \[platform] )
@@ -125,7 +130,7 @@ var base = reBasename.REGEXP_WIN32.exec( 'C:\\foo\\bar\\index.js' )[ 1 ];
 <body>
 <script type="module">
 
-import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@v0.2.1-esm/index.mjs';
+import reBasename from 'https://cdn.jsdelivr.net/gh/stdlib-js/regexp-basename@esm/index.mjs';
 var RE_BASENAME = reBasename();
 
 // Assuming a POSIX platform...
