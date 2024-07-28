@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/regexp-basename",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Return a regular expression to capture the last part of a path.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-contains": "^0.2.1",
-    "@stdlib/assert-is-windows": "^0.2.1",
+    "@stdlib/assert-contains": "^0.2.2",
+    "@stdlib/assert-is-windows": "^0.2.2",
     "@stdlib/regexp-basename-posix": "^0.2.1",
     "@stdlib/regexp-basename-windows": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/string-from-code-point": "^0.2.1",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/string-from-code-point": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
