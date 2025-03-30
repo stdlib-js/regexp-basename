@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-30)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4a1f629`](https://github.com/stdlib-js/stdlib/commit/4a1f62948d89370e432a733aeccd854aac26caab) - **refactor:** use base array assertion utility _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-31)
